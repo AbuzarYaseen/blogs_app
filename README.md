@@ -37,11 +37,11 @@ To learn more about Next.js, take a look at the following resources:
 
 ## ScreenShots
 
-![Screenshot](1.PNG)
-![Screenshot](2.PNG)
-![Screenshot](3.PNG)
-![Screenshot](4.PNG)
-![Screenshot](5.PNG)
-![Screenshot](6.PNG)
-![Screenshot](7.PNG)
+![Screenshot](1.JPG)
+![Screenshot](2.JPG)
+![Screenshot](3.JPG)
+![Screenshot](4.JPG)
+![Screenshot](5.JPG)
+![Screenshot](6.JPG)
+![Screenshot](7.JPG)
 
