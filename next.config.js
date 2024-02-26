@@ -1,13 +1,15 @@
 /** @type {import('next').NextConfig} */
+const dotenv = require("dotenv");
+dotenv.config();
 const nextConfig = {
-  images:{
-    remotePatterns:[
+  images: {
+    remotePatterns: [
       {
-        protocol: 'https',
-        hostname: "images.pexels.com"
-      }
-    ]
-  }
-}
+        protocol: "https",
+        hostname: "images.pexels.com",
+      },
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
