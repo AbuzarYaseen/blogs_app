@@ -7,9 +7,10 @@ import ClientSideProviderTest from "@/components/clientSideProviderTest";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  manifest: "/manifest.json",
   title: {
-    default:"Next.js 14 Homepage",
-    template:"%s | Next.js 14"
+    default: "Next.js 14 Homepage",
+    template: "%s | Next.js 14",
   },
   description: "Next.js starter app description",
 };
@@ -19,11 +20,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {/* <ClientSideProviderTest> */}
-          <div className="container">
-            <Navbar />
-            {children}
-            <Footer />
-          </div>
+        <div className="container">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
         {/* </ClientSideProviderTest> */}
       </body>
     </html>
